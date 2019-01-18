@@ -13,3 +13,6 @@
 
 <img src="https://img-blog.csdnimg.cn/20190118231106124.png"/>
 &nbsp; 登陆界面优点辣眼睛，哈哈哈。
+
+<p>文件结构：</p>
+<img src="https://img-blog.csdnimg.cn/20190118231155579.png"/>
