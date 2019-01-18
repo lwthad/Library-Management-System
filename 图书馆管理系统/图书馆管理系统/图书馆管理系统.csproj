@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8378A2CE-F043-4097-9D85-688F416B5D88}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>图书馆管理系统</RootNamespace>
+    <AssemblyName>图书馆管理系统</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BorrowBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorrowBook.Designer.cs">
+      <DependentUpon>BorrowBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnterForm.Designer.cs">
+      <DependentUpon>EnterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LAstu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LAstu.Designer.cs">
+      <DependentUpon>LAstu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LookBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LookBook.Designer.cs">
+      <DependentUpon>LookBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lookInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lookInformation.Designer.cs">
+      <DependentUpon>lookInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewBook.Designer.cs">
+      <DependentUpon>NewBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewStuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewStuForm.Designer.cs">
+      <DependentUpon>NewStuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewZiadminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewZiadminForm.Designer.cs">
+      <DependentUpon>NewZiadminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReturnBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReturnBook.Designer.cs">
+      <DependentUpon>ReturnBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StuForm.Designer.cs">
+      <DependentUpon>StuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ziAdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ziAdminForm.Designer.cs">
+      <DependentUpon>ziAdminForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorrowBook.resx">
+      <DependentUpon>BorrowBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnterForm.resx">
+      <DependentUpon>EnterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LAstu.resx">
+      <DependentUpon>LAstu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LookBook.resx">
+      <DependentUpon>LookBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lookInformation.resx">
+      <DependentUpon>lookInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewBook.resx">
+      <DependentUpon>NewBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewStuForm.resx">
+      <DependentUpon>NewStuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewZiadminForm.resx">
+      <DependentUpon>NewZiadminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReturnBook.resx">
+      <DependentUpon>ReturnBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StuForm.resx">
+      <DependentUpon>StuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ziAdminForm.resx">
+      <DependentUpon>ziAdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\艾斯.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WIN_20170915_20_47_40_Pro.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
